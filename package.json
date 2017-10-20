@@ -1,0 +1,32 @@
+{
+  "name": "puppeteer_mocha_chai",
+  "version": "1.0.0",
+  "description": "e2e test framework using Mocha as the test runner, Chai as the assertion library, and puppeteer as the library that interacts with the Chrome browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*Test.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "Mocha",
+    "Chai",
+    "UI",
+    "Automation",
+    "e2e",
+    "Headless",
+    "Chrome"
+  ],
+  "author": "Ali Haydar",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "puppeteer": "^0.12.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  }
+}
