@@ -4,7 +4,8 @@
   "description": "e2e test framework using Mocha as the test runner, Chai as the assertion library, and puppeteer as the library that interacts with the Chrome browser.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/*Test.js"
+    "test": "MY_ENV=local mocha test/*Test.js",
+    "test-staging":"MY_ENV=staging mocha test/*Test.js"
   },
   "keywords": [
     "puppeteer",
